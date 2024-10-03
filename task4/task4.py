@@ -1,5 +1,6 @@
+filename=input()
 nums=[]
-with open("numbers.txt","r") as numbers:
+with open(filename,"r") as numbers:
     for line in numbers:
         nums.append(int(line))
 sum=0 #сумма всех значений
