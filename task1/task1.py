@@ -1,4 +1,6 @@
-n,m=int(input()),int(input())
+import sys
+
+n,m=int(sys.argv[1]), int(sys.argv[2])
 loop=[i for i in range(1, n+1)] #круговой массив
 final=[1] #массив для хранения последних чисел
 last_num=m-1 #последнее число массива
